@@ -2591,8 +2591,8 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		background-size: auto,								cover; /*150%;*/
+		color: rgb(255, 255, 255);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2600,6 +2600,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
+		max-width: 560px;
 	}
 
 		#header > * {
@@ -3057,6 +3058,7 @@ input, select, textarea {
 				text-align: center;
 				top: auto;
 				width: 100%;
+				max-width: 980px;
 				display: block;
 			}
 
